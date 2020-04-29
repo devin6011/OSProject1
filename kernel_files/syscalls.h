@@ -990,6 +990,7 @@ asmlinkage long sys_statx(int dfd, const char __user *path, unsigned flags,
 			  unsigned mask, struct statx __user *buffer);
 
 asmlinkage long sys_my_printk(int pid, long start_time_sec, long start_time_nsec, long finish_time_sec, long finish_time_nsec);
+asmlinkage long sys_my_time(long *sec, long *nsec);
 
 asmlinkage long sys_rseq(struct rseq __user *rseq, uint32_t rseq_len,
 			 int flags, uint32_t sig);

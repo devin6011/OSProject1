@@ -361,6 +361,7 @@
 438	common	pidfd_getfd		__x64_sys_pidfd_getfd
 
 451	common	my_printk	__x64_sys_my_printk
+452	common	my_time		__x64_sys_my_time
 
 #
 # x32-specific system call numbers start at 512 to avoid cache impact
